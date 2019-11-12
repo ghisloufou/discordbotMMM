@@ -56,7 +56,7 @@ function loop() {
 
 
 // login to Discord with your app's token
-client.login('NjQzMTYzODkzNTk3OTk1MDQz.XcrukQ.2ZO57H-rwzgjFfeCTAF3hp1GhWI');
+client.login('NjQzMTYzODkzNTk3OTk1MDQz.XctB1Q.yvtCUYINvnbnTFu4bZArUekptVE');
 
 
 function getWeather(cityName) {
@@ -69,7 +69,6 @@ function getWeather(cityName) {
       }
     });
     client.user.setAvatar('https://openweathermap.org/img/wn/'+ data.weather[0].icon +'@2x.png').catch(() => {});
-    client.user.setUsername('Météo '+cityName).catch(() => {});
   })
   .catch((error) => {
     console.log(error);
