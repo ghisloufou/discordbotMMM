@@ -1,4 +1,12 @@
 {
+  "name": "my-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot!",
+  "main": "bot.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Ghislain",
+  "license": "ISC"
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
