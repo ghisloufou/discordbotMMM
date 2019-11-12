@@ -32,7 +32,7 @@ client.on('message', msg => {
 
 
 // login to Discord with your app's token
-client.login('NjQzMTYzODkzNTk3OTk1MDQz.Xchfgw.buQFawTOSWjloAgUeQVYzwd19dU');
+client.login('NjQzMTYzODkzNTk3OTk1MDQz.XcrYAg.fuml5TT31wXEBQ2tXHba0EuWoKA');
 
 function troll(msg) {
   var tab = msg.split(' ');
