@@ -6,7 +6,7 @@
   "scripts": {},
   "keywords": [],
   "author": "Ghislain",
-  "license": "ISC"
+  "license": "ISC",
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
